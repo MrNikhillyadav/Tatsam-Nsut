@@ -1,15 +1,14 @@
 import React from 'react';
-import logo from '../assets/logo.svg';
-import hamburger from '../assets/hamburger.svg';
+import {logo, hamburger} from '../assets';
 
 
 
 const Navbar = () => {
 return (
+
     <div className='w-full  h-[80px] bg-white  border-b  '>
         
-        {/* navbar */}
-        <div className=' sm:max-w-[1440px] max-w-[600px]    w-full h-full  m-auto flex items-center justify-between '>
+        <div className=' sm:max-w-[1240px] max-w-[600px]    w-full h-full  m-auto flex items-center justify-between '>
 
                 {/* logo */}
                 <img src={logo} alt='logo' className='h-[70px]'/>
