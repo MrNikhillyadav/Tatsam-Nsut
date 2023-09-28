@@ -1,4 +1,4 @@
-// assets/index.js
+
 
 // Import your SVG files
 import logo from './svgs/logo.svg';
