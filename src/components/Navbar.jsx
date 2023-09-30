@@ -6,7 +6,7 @@ import {logo, hamburger} from '../assets';
 const Navbar = () => {
 return (
 
-    <div className='w-full  h-[80px] bg-white/40 absolute  border-b  '>
+    <div className='w-full  h-[80px] bg-white/20 absolute top-0 left-0  shadow-2xl border-b  '>
         
         <div className=' sm:max-w-[1240px] max-w-[600px]    w-full h-full  m-auto flex items-center justify-between '>
 
@@ -14,8 +14,8 @@ return (
                 <img src={logo} alt='logo' className='h-[90px]'/>
 
                 {/* nav-links */}
-                <div className=' hidden sm:flex justify-between items-center'>
-                        <ul className='flex items-center justify-between gap-16  '>
+                <div className=' hidden sm:flex justify-between items-center text-md'>
+                        <ul className='flex items-center justify-between gap-20 text-white  '>
                                 <li>Home</li>
                                 <li>Events</li>
                                 <li>Members</li>
@@ -24,8 +24,8 @@ return (
                 </div>
 
                 {/* register button */}
-                <div className=' hidden sm:flex '>
-                        <button className='bg-[#0059AA] hover:bg-[#3573ad]  ease-in-out text-white px-8 py-2 rounded-lg'>Register</button>
+                <div className=' hidden sm:flex  '>
+                        <button className='bg-[#0059AA] hover:bg-[#3573ad] border border-white shadow-lg ease-in-out text-white px-8 py-2 rounded-lg'>Register</button>
                 </div>
 
                 {/* hamburger-icon */}

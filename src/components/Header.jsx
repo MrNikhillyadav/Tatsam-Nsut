@@ -10,7 +10,7 @@ const Header = () => {
                 < Navbar className="z-2 absolute" />
 
                 {/* Hero image */}
-                <img className='top-0 left-0 w-full h-screen object-cover ' src={hero} alt="" />
+                <img className='top-0 left-0 w-full h-screen  object-cover ' src={hero} alt="" />
 
                 {/* overlay */}
                 <div className='bg-black/40 absolute top-0 left-0 z-1 w-full h-full '></div>
@@ -30,16 +30,10 @@ const Header = () => {
                                         Veritatis commodi facere soluta architecto eius nulla quaerat dolores quis! Ut.
                                         Veritatis commodi facere soluta architecto eius nulla quaerat dolores quis! Ut.
                                         </p>
-                                        <button className='bg-orange-500 rounded-xl hover:bg-orange-600 text-white md:px-8 md:py-2 mt-6  mb-2 px-5 py-2'> About Us</button>
+                                        <button className='border border-white shadow-lg rounded-lg hover:bg-white/40 text-white md:px-8 md:py-2 mt-6  mb-2 px-5 py-2'> Join Us</button>
                                 </div>
 
-                                {/* image group
-                                <div className='flex items-center'>
-                                        <div  className='flex items-center w-full md:w-[600px] my-10  '>
-                                                <img src={h_2} className='md:w-[300px] w-[250px] md:translate-x-[100px] translate-y-[-30px] translate-x-[70px] ' />
-                                                <img src={h_1} className='md:w-[300px] w-[250px] md:translate-x-[10px] translate-x-[-70px]  ' />
-                                        </div>
-                                </div> */}
+                              
                         </div>
                         
                         </div>
