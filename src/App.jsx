@@ -5,7 +5,7 @@ import { Navbar,Header, Events, Members, Newsletter, Footer } from './components
 const App = () => {
   return (
     <div>
-      <Navbar/>
+      {/* <Navbar/> */}
       <Header/>
       <Events/>
       <Members/>

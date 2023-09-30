@@ -6,12 +6,12 @@ import {logo, hamburger} from '../assets';
 const Navbar = () => {
 return (
 
-    <div className='w-full  h-[80px] bg-white  border-b  '>
+    <div className='w-full  h-[80px] bg-white/40 absolute  border-b  '>
         
         <div className=' sm:max-w-[1240px] max-w-[600px]    w-full h-full  m-auto flex items-center justify-between '>
 
                 {/* logo */}
-                <img src={logo} alt='logo' className='h-[70px]'/>
+                <img src={logo} alt='logo' className='h-[90px]'/>
 
                 {/* nav-links */}
                 <div className=' hidden sm:flex justify-between items-center'>
