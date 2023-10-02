@@ -1,0 +1,127 @@
+.newsletter{
+    margin-top:100px;
+    margin-bottom:100px;
+    margin-left: 70px;
+    margin-right:70px;
+    display:flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    /* background-color: aqua; */
+    /* position: relative; */
+}
+.image{
+    display: flex;
+    /* background-color: black; */
+    justify-content: center;
+}
+.news-head{
+    margin-top:60px;
+    font-size: 44px;
+    /* background-color: brown; */
+}
+.news-content{
+    margin-top: 25px;
+    width:90%;
+    /* background-color: antiquewhite; */
+}
+.email{
+    /* background-color: palegreen; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top:40px;
+    width:70%;
+}
+.email input{
+    height:40px;
+    width:300px;
+    border-radius: 20px;
+    padding-left: 10px;
+    background-color: rgb(233, 230, 230);
+    border:none;
+}
+.email input:focus{
+    outline:none;
+}
+.email button{
+    position: relative;
+    z-index: 2;
+    background-color: rgb(241, 175, 51);
+    color: white;
+    padding: 7px;
+    /* background-color: pink; */
+    border-radius: 20px;
+    position: relative;
+    left:-30px;
+
+}
+@media(max-width:1000px){
+    .news-head{
+        font-size:40px;
+    }
+}
+@media(max-width:640px){
+    .image{
+        width:60%;
+    }
+    .news-head{
+        font-size:30px;
+    }
+    .news-content{
+        font-size:12px;
+    }
+    .email{
+        width:85%;
+    }
+    .email button{
+        font-size:14px;
+    }
+}
+@media(max-width:525px){
+    .newsletter{
+        margin-left:40px;
+        margin-right:40px;
+    }
+    /* .news-head{
+        font-size:30px;
+    } */
+}
+@media(max-width:460px){
+    .image{
+        width:75%;
+    }
+    .news-head{
+        font-size:25px;
+    }
+    .news-content{
+        width:95%;
+        font-size:11px;
+    }
+    .email{
+        position: relative;
+        left:17px;
+        width:95%;
+    }
+    .email input{
+        font-size:14px;
+    }
+    /* .email button{
+        font-size:14px;
+    } */
+}
+@media(max-width:400px){
+    /* .image{
+        width:90%;
+    } */
+    .news-head{
+        
+        font-size:21px;
+    }
+    .email input{
+        font-size:12px;
+    }
+    .email button{
+        font-size:12px;
+    }
+}
