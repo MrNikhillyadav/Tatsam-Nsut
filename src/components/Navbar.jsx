@@ -6,7 +6,7 @@ import {logo, hamburger} from '../assets';
 const Navbar = () => {
 return (
 
-    <div className='w-full  h-[80px] bg-white/20 absolute top-0 left-0  shadow-2xl border-b  '>
+    <div className='w-full  h-[80px]  absolute z-2 top-0 left-0  shadow-2xl border-b  '>
         
         <div className=' sm:max-w-[1240px] max-w-[600px]    w-full h-full  m-auto flex items-center justify-between '>
 

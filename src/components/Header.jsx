@@ -1,19 +1,20 @@
 import React from 'react'
-import {h_1, h_2}  from '../assets';
+// import {h_1, h_2}  from '../assets';
 import hero from '../assets/pngs/hero.png';
 import Navbar from './Navbar';
 
 const Header = () => {
   return (
           <header className='w-full  h-screen border-b '>
-                {/* Navbar  */}
-                < Navbar className="z-2 absolute" />
 
                 {/* Hero image */}
                 <img className='top-0 left-0 w-full h-screen  object-cover ' src={hero} alt="" />
 
+                {/* Navbar  */}
+                < Navbar className="absolute top-0 left-0 z-2 " />
+
                 {/* overlay */}
-                <div className='bg-black/40 absolute top-0 left-0 z-1 w-full h-full '></div>
+                <div className='bg-black/40 absolute top-0 left-0 z-1 w-full h-full  '></div>
 
                         <div className='absolute top-0 left-0 w-full h-screen'>
                         <div className=' sm:max-w-[1240px] max-w-[600px]  w-full h-full   m-auto items-center   pt-[150px] pb-[150px]  '>
