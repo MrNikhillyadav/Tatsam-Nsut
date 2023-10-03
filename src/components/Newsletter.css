@@ -21,6 +21,8 @@
     /* background-color: brown; */
 }
 .news-content{
+    position: relative;
+    left:3px;
     margin-top: 25px;
     width:90%;
     /* background-color: antiquewhite; */
@@ -32,6 +34,8 @@
     justify-content: center;
     margin-top:40px;
     width:70%;
+    position: relative;
+    left:20px;
 }
 .email input{
     height:40px;
