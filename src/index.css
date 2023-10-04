@@ -1,3 +1,559 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body
+{
+  background-color: #fff;
+  font-family: 'Poppins', sans-serif;
+  overflow-x:  hidden;
+}
+
+/* Member Section css start from here */
+
+.container-member
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin : 20px 0;
+}
+
+.container-member .card
+{
+    width : 300px;
+    height: 390px;
+    background-color: #fff;
+    margin : 20px;
+    box-shadow: 0 15px 15px rgba(0,0,0,0.2);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter : blur(10px);
+}
+
+.container-member .card:hover{
+    background: rgb(234 88 12);
+}
+
+.container-member .card .content-card
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* opacity: 0.8; */
+    transition: 0.5s;
+}
+
+.container-member .card:hover .content-card
+{
+    opacity: 1;
+}
+
+.container-member .card .content-card .img
+{
+    position: relative;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    overflow: hidden;
+    border : 5px solid rgb(234 88 12);
+}
+
+.container-member .card .content-card .img img{
+    position: relative;
+    top : 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container-member .card .content-card .content-box
+{
+    text-align: center;
+}
+
+.designation
+{
+    color :  rgb(234 88 12);
+    font-weight: 600;
+}
+
+.designation:hover
+{
+    color: #fff;
+}
+
+.container-member .card:hover .content-card .content-box .designation
+{
+    color : #fff;
+}
+
+.container-member .card .content-card .content-box h3
+
+{
+    color: Black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500px;
+    font-size: 18px;
+    text-align: center;
+    margin: 20px 0 10px;
+    line-height: 1.1em;
+}
+
+.container-member .card:hover .content-card h3
+{
+    color: #fff;
+}
+
+.container-member .card .content-card .content-box h3 span{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: initial;
+    text-align: center;
+    font-size: bold;
+}
+
+
+.container-member .card .sci
+{
+    position: absolute;
+    bottom : 40px;
+    display: flex;
+}
+
+.container-member .card .sci li{
+    list-style: none;
+    margin : 0 10px;
+    transform: translateY(40px);
+    transition: 0.5s;
+    transition-delay: calc(0.1s * var(--i));
+    opacity: 0;
+}
+
+.container-member .card:hover .sci li{
+    list-style: none;
+    margin : 0 10px;
+    transform: translateY(20px);
+    transition: 0.5s;
+    opacity: 1;
+    
+}
+
+.container-member .card:hover .content-card
+{
+    opacity: 1;
+    transform: translateY(-25px);
+}
+.container-member .card .sci li a
+{
+    color : Black;
+    font-size: 24px;
+    
+}
+
+.container-member .card:hover .team-about
+{
+    color:#fff;
+}
+
+.container-member .card:hover .sci li a
+{
+    color : #fff;
+    font-size: 24px;
+}
+
+/* Member Section css ends from here */
+
+
+/* Tabs css starts from here */
+
+/* .tab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-team
+{
+    width: 1200px;
+    background-color: #eee;
+    padding: 30px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.1);
+    border-radius: 20px;
+}
+
+.tab_box
+
+{
+    width : 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #ebe9e9 ;
+    font-size: 18;
+    font-weight: 600;
+    position: relative;
+}
+
+.tab_box .tab_btn
+{
+    font-size: 18px;
+    font-weight: 600;
+    color : #919191;
+    background: none;
+    border: none;
+    padding: 18px;
+    cursor: pointer;
+}
+
+.tab_box .tab_btn.active
+{
+    color : rgb(234 88 12)
+}
+
+.content_box
+{
+    padding: 20px;
+}
+
+
+
+
+.content_box .content.active
+{
+    display: block;
+}
+
+.content_box .content h2{
+    margin-bottom: 10px;
+
+} */
+
+/* .line
+{
+    position: absolute;
+    margin-top: 40px;
+    top: 120;
+    left: 17;
+    width: 90px;
+    height: 5px;
+    background-color:rgb(234 88 12);
+    border-radius: 10px;
+    transition: all .3s ease-in-out;
+} */
+
+
+/* Members section starts from here */
+
+.container-members
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eee;
+}
+
+.member-tab
+{
+    max-width : 1500px;
+    width: 100%;
+    background-color: #eee;
+    padding: 30px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.member-tab nav
+{
+    position: relative;
+    height: 50px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: auto;
+    padding-top: 10px;
+}
+
+.member-tab nav::-webkit-scrollbar
+{
+    width: 0;
+}
+
+.member-tab nav::after
+{
+    content : ' ';
+    background: silver;
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    top : 47px;
+    filter: blur(0.5px);
+}
+
+.member-tab  nav label
+{
+   position: relative;
+   display: flex;
+   display: block;
+   width: 100%;
+   text-align: center;
+   line-height: 50px;
+   cursor: pointer;
+   font-size: 17px;
+   font-weight: 600;
+   transition: all 0.3s ease;
+   justify-content: space-around;
+}
+
+@media (max-width : 480px) {
+    .member-tab  nav label
+    {
+        font-size: 14px;
+    }
+}
+
+#all:checked ~ nav label .all,
+#lead:checked ~ nav label .lead,
+#tech:checked ~ nav label .tech,
+#content:checked ~ nav label .content,
+#design:checked ~ nav label .design,
+#pr:checked ~ nav label .pr
+{
+    color: rgb(234 88 12);
+}
+
+input[type='radio']
+{
+    display: none;
+}
+
+.slider
+{
+    position: absolute;
+    height: 4.5px;
+    background-color: rgb(234 88 12);
+    border-radius: 20px;
+    width: 10%;
+    z-index : 1;
+    left: 0px;
+    bottom : 0;
+    transition: all 0.3s ease;
+    filter: blur(0.4px);
+    margin-left: 30px;
+}
+
+@media (max-width : 800px) {
+    .slider{
+        margin-left: 8px;
+        width: 13%;
+    }
+}
+
+#lead:checked ~ nav .slider
+{
+    left: 16.66%;
+}
+
+#tech:checked ~ nav .slider
+{
+    left: 33.32%;
+}
+
+#content:checked ~ nav .slider
+{
+    left: 49.98%;
+}
+
+#design:checked ~ nav .slider
+{
+    left: 83.3%;
+}
+
+#pr:checked ~ nav .slider
+{
+    left: 66.52%;
+}
+
+#design:checked ~ nav .design{
+    color : rgb(234 88 12);
+}
+
+#all:checked ~ nav .all{
+    color : rgb(234 88 12);
+}
+
+#lead:checked ~ nav .lead{
+    color : rgb(234 88 12);
+}
+
+#tech:checked ~ nav .tech{
+    color : rgb(234 88 12);
+}
+
+#content:checked ~ nav .content{
+    color : rgb(234 88 12);
+}
+
+#pr:checked ~ nav .pr{
+    color : rgb(234 88 12);
+}
+
+.tab-content
+{
+    filter : blur(0.3px);
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tab-content .member-content
+{
+    margin-bottom: 30px ;
+}
+
+.content-2 , .content-3 , .content-4 , .content-5 , .content-6
+{
+    display: none;
+}
+
+/* #all:checked ~ .tab-content .content-2,
+#all:checked ~ .tab-content .content-3,
+#all:checked ~ .tab-content .content-4
+{
+    display: none;
+} */
+
+#lead:checked ~ .tab-content .content-2
+{
+    display: block;
+}
+
+#lead:checked ~ .tab-content .content-1
+{
+    display: none;
+}
+
+#tech:checked ~ .tab-content .content-3
+{
+    display: block;
+}
+
+#tech:checked ~ .tab-content .content-1
+{
+    display: none;
+}
+
+#content:checked ~ .tab-content .content-4
+{
+    display: block;
+}
+
+#content:checked ~ .tab-content .content-1
+{
+    display: none;
+}
+
+#design:checked ~ .tab-content .content-5
+{
+    display: block;
+}
+
+#design:checked ~ .tab-content .content-1
+{
+    display: none;
+}
+
+#pr:checked ~ .tab-content .content-6
+{
+    display: block;
+}
+
+#pr:checked ~ .tab-content .content-1
+{
+    display: none;
+}
+
+.member-content
+{
+    animation: moving .5s ease;
+}
+
+@keyframes moving {
+    from {transform : translateX(50px) ; opacity : 0;}
+    to {transform : translateX(0px) ; opacity : 1;}
+}
+
+/* Title  */
+
+.title-team
+{
+    font-weight:  bold;
+    color : rgb(234 88 12);
+    font-size: 30px;
+}
+
+
+/* Text underline animation css */
+
+.loader
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.underline
+{
+    width: 200px;
+    height: 2px;
+    background: #fff;
+}
+
+.underline::before{
+    content: ' ';
+    position: absolute;
+    width: 200px;
+    height: 3px;
+    background: rgb(234 88 12);
+    transform-origin: left;
+    animation: animate 5s linear infinite;
+}
+
+@keyframes animate {
+    0% , 20%
+    {
+        transform: scaleX(0);
+    }
+    40%
+    {
+        transform: scaleX(1);
+        transform-origin: left;
+    }
+    40.000001% , 60%
+    {
+        transform: scaleX(1);
+        transform-origin: right;
+    }
+
+    80% , 100%
+    {
+        transform: scaleX(0);
+        transform-origin: right;
+    }
+}
+
+/* Text underline animation css ends here */
+
