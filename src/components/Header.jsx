@@ -2,6 +2,7 @@ import React from 'react'
 // import {h_1, h_2}  from '../assets';
 import hero from '../assets/pngs/hero.png';
 import Navbar from './Navbar';
+import SocialLinks from './SocialLinks';
 
 const Header = () => {
   return (
@@ -29,7 +30,11 @@ const Header = () => {
                                         Veritatis commodi facere soluta architecto eius nulla quaerat dolores quis! Ut.
                                         Veritatis commodi facere soluta architecto eius nulla quaerat dolores quis! Ut.
                                         </p>
-                                        <button className='border border-white shadow-lg rounded-lg bg-[rgba(231,109,61,0.97)] hover:bg-white/40 text-white md:px-8 md:py-2 mt-6  mb-2 px-5 py-2'> Join Us</button>
+                                        <button className=' drop-shadow-xl border  duration-300 rounded-lg bg-[rgba(231,109,61,0.97)] hover:bg-white/40 text-white md:px-8 md:py-2 mt-6  mb-2 px-5 py-2'> Join Us</button>
+
+                                        <div className='md:mt-[360px] absolute bottom-5  left-0 right-0 px-4  '>
+                                        <SocialLinks />
+                                        </div>
                                 </div>
 
                               
