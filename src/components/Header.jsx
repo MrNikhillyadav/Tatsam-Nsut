@@ -5,19 +5,17 @@ import Navbar from './Navbar';
 
 const Header = () => {
   return (
-          <header className='w-full  h-screen border-b '>
+          <header className='w-full  h-screen border-b  relative'>
+
 
                 {/* Hero image */}
-                <img className='top-0 left-0 w-full h-screen  object-cover ' src={hero} alt="" />
+                <img className='top-0 left-0 w-full h-screen  brightness-50 object-cover ' src={hero} alt="" />
 
-                {/* Navbar  */}
-                < Navbar className="absolute top-0 left-0 z-2 " />
-
-                {/* overlay */}
-                <div className='bg-black/40 absolute top-0 left-0 z-1 w-full h-full  '></div>
 
                         <div className='absolute top-0 left-0 w-full h-screen'>
                         <div className=' sm:max-w-[1240px] max-w-[600px]  w-full h-full   m-auto items-center   pt-[150px] pb-[150px]  '>
+
+                                <Navbar  />
 
                                 {/* Text-container */}
                                 <div className='   text-white px-8 md:text-left  flex flex-col items-center justify-center text-center mb-11'>
@@ -31,7 +29,7 @@ const Header = () => {
                                         Veritatis commodi facere soluta architecto eius nulla quaerat dolores quis! Ut.
                                         Veritatis commodi facere soluta architecto eius nulla quaerat dolores quis! Ut.
                                         </p>
-                                        <button className='border border-white shadow-lg rounded-lg hover:bg-white/40 text-white md:px-8 md:py-2 mt-6  mb-2 px-5 py-2'> Join Us</button>
+                                        <button className='border border-white shadow-lg rounded-lg bg-[rgba(231,109,61,0.97)] hover:bg-white/40 text-white md:px-8 md:py-2 mt-6  mb-2 px-5 py-2'> Join Us</button>
                                 </div>
 
                               
