@@ -15,11 +15,12 @@ return (
 
                         {/* nav-links */}
                         <div className=' hidden sm:flex justify-between items-center text-md'>
-                                <ul className='flex items-center justify-between gap-20 text-white font-semibold  '>
-                                        <li>Home</li>
-                                        <li>Events</li>
-                                        <li>Members</li>
-                                        <li>About Us</li>
+                                <ul className='flex items-center justify-between gap-[70px] text-white font-semibold  '>
+                                        <li> <a href="#">Home</a></li>
+                                        <li> <a href="#">Events</a></li>
+                                        <li> <a href="#">Members</a></li>
+                                        <li> <a href="#">Contact Us</a></li>
+                                      
                                 </ul>
                         </div>
 
