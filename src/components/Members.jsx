@@ -1,23 +1,13 @@
 import React from 'react';
 import Card from './Card';
 import './Card.css'
+import {slide_image_1,slide_image_2,slide_image_3,slide_image_4,slide_image_5,slide_image_6,slide_image_7,slide_image_8,
+  slide_image_9,slide_image_10,slide_image_11,slide_image_12} from '../assets'
 
-import slide_image_1 from '../assets/images/img-1.jpeg';
-import slide_image_2 from '../assets/images/img-2.jpeg';
-import slide_image_3 from '../assets/images/img-3.jpeg';
-import slide_image_4 from '../assets/images/img-4.jpeg';
-import slide_image_5 from '../assets/images/img-5.jpeg';
-import slide_image_6 from '../assets/images/img-6.jpeg';
-import slide_image_7 from '../assets/images/img-7.jpeg';
-import slide_image_8 from '../assets/images/img-8.jpeg';
-import slide_image_9 from '../assets/images/img-9.jpeg';
-import slide_image_10 from '../assets/images/img-10.jpeg';
-import slide_image_11 from '../assets/images/img-11.jpg';
-import slide_image_12 from '../assets/images/img-12.jpg';
 
-const Members = () => {
+function Members() {
   return (
-        <div>    
+    <div>    
             <div>
 
                     {/* Write your code below this line */}

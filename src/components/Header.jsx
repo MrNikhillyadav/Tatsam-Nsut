@@ -1,6 +1,5 @@
 import React from 'react'
-// import {h_1, h_2}  from '../assets';
-import hero from '../assets/pngs/hero.png';
+import {hero}  from '../assets';
 import Navbar from './Navbar';
 import SocialLinks from './SocialLinks';
 

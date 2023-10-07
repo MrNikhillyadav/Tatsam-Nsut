@@ -2,6 +2,8 @@ import React from 'react'
 import {newsletter}  from '../assets';
 import './Newsletter.css'
 import emailjs from 'emailjs-com';
+
+
 const Newsletter = () => {
   function sendEmail(e) {
     e.preventDefault();  
