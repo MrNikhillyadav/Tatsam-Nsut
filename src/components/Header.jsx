@@ -18,16 +18,15 @@ const Header = () => {
                                 <Navbar  />
 
                                 {/* Text-container */}
-                                <div className='   text-white px-8 md:text-left  flex flex-col  items-center justify-center text-center mb-11'>
+                                <div className='   text-white px-8 md:text-left  flex flex-col  text-wrap items-center justify-center text-center mb-11'>
 
                                         <h2 className='md:text-[90px] text-[60px] mb-[-20px] font-bold' >TATSAM</h2>
                                         <h2 className='md:text-[30px]  text-[20px] pt-2 text-slate-200'>The Hindi Society of NSUT</h2>
-                                        <p className='md:text-sm text-[12px]   text-slate-200'>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Veritatis commodi facere soluta architecto eius nulla quaerat dolores quis! Ut.
-                                        Veritatis commodi facere soluta architecto eius nulla quaerat dolores quis! Ut.
-                                        Veritatis commodi facere soluta architecto eius nulla quaerat dolores quis! Ut.
+                                        <p className='md:text-sm  text-[12px] text-center   text-slate-200'>
+                                        Welcome to Tatsam - The Hindi Society of NSUT, where ordinary moments transform into extraordinary memories, and dreams find their wings to soar.
+                                        <p className='hidden md:inline'>
+                                        At Tatsam, we're not just a college society, we're a community of dreamers, creators, and visionaries. Our aim is : to ignite the spark of passion, creativity, and culture through the beautiful tapestry of Hindi language and art.
+                                        </p>
                                         </p>
                                         <button className=' drop-shadow-xl border  duration-300 rounded-lg bg-[#FF9100] hover:bg-white/40 text-white md:px-8 md:py-2 mt-6  mb-2 px-5 py-2'> Join Us</button>
 
