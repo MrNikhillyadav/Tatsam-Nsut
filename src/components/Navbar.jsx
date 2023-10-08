@@ -31,7 +31,7 @@ return (
 
                         {/* hamburger-icon */}
                         <div className='sm:hidden flex items-center'>
-                                <button><img src={hamburger} alt="hamburger-icon" style={{color:'white'}} className='w-10 h-10 ' /></button>
+                                <button ><img src={hamburger} alt="hamburger-icon" style={{color:'white'}} className='w-10 h-10  ' /></button>
                         </div>
 
                 </div>

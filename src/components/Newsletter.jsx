@@ -24,11 +24,11 @@ const Newsletter = () => {
             </div>  
             
             <div className="news-head">
-                Subscribe to Our Newsletter
+                Subscribe to our Newsletter
             </div>
-            <div className="news-content flex justify-center flex-col items-center text-slate-400">
-                <p>Are you ready to unlock the secrets of tech trends and innovations? </p>
-             <p> Join our thriving community of tech enthusiasts and discover the invaluable insights. <br /> Over <span className='text-slate-600 font-bold px-1'> 1,000+ </span> of your peers have already unlocked through our exclusive newsletter.</p>
+            <div className="news-content flex justify-center flex-col text-center items-center text-slate-400">
+                <p className='hidden md:block mb-2'>Are you ready to unlock the secrets of tech trends and innovations? </p>
+             <p> Join our thriving community of tech enthusiasts and discover the invaluable insights. <br className='hidden lg:block' /> Over <span className='text-slate-600 font-bold px-1'> 1,000+ </span> of your peers have already unlocked through our exclusive newsletter.</p>
             </div>
             <div className="email drop-shadow-sm">
                 <input className='text-sm ' type='text'  placeholder='Enter Your Email Address'/>

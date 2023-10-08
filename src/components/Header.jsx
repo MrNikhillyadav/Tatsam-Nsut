@@ -18,7 +18,7 @@ const Header = () => {
                                 <Navbar  />
 
                                 {/* Text-container */}
-                                <div className='   text-white px-8 md:text-left  flex flex-col items-center justify-center text-center mb-11'>
+                                <div className='   text-white px-8 md:text-left  flex flex-col  items-center justify-center text-center mb-11'>
 
                                         <h2 className='md:text-[90px] text-[60px] mb-[-20px] font-bold' >TATSAM</h2>
                                         <h2 className='md:text-[30px]  text-[20px] pt-2 text-slate-200'>The Hindi Society of NSUT</h2>
