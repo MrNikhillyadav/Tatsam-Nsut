@@ -26,7 +26,7 @@ function Members() {
                           <input type="radio" className='tab_btn' name='slider' id="pr" />
 
 
-                          <div className="title-team">The Team</div>
+                          <div className="title-team  ">Our Team</div>
                           <div className="underline"></div>
                           
                           <nav>
@@ -52,7 +52,7 @@ function Members() {
                                 <Card img = {slide_image_2} name = "Ajay Devgon" designation = "Joint Secratory" description = "Lorem ipsum dolor sit amet consectetur adipiskkn."/> 
                               </div>
 
-                              <div className="member-content content-1">
+                              <div className="member-content content-1 ">
                                 <Card img = {slide_image_3} name = "Salman Khan" designation = "Joint Secratory" description = "Lorem ipsum dolor sit amet consectetur adipiskkn."/> 
                               </div>    
                           </div>
