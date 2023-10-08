@@ -1,20 +1,16 @@
 import React from 'react'
+import { footer } from '../assets'
 
 const Footer = () => {
   return (
-        <div className='w-full bg-white  border-b  '>    
-            <div className=' sm:max-w-[1240px] max-w-[600px] border border-black  w-full h-full  m-auto  '>
-
-                    {/* Write your code below this line */}
-
-                    <h1>Footer</h1>
+        <div className='w-full  flex items-center  justify-center'>    
+            <img className='w-full ' src={footer} alt="footer" />
 
 
 
-
-                    
-
-            </div>
+           <div className='max-w-[1240px] w-full    text-white font-sans text-[14px] absolute flex mt-[90px] justify-between items-center gap-11 '>
+                      
+           </div>
         </div>
   )
 }
