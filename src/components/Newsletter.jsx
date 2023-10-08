@@ -17,21 +17,22 @@ const Newsletter = () => {
   }
 
   return (
-        <div className='newsletter'>  
+    
+        <div className='newsletter '>  
             <div className="image">
-                <img src={newsletter}/>
+                <img src={newsletter} className='drop-shadow-sm'/>
             </div>  
             
             <div className="news-head">
-                Subscribe to Our Newsletter
+                Subscribe to our Newsletter
             </div>
-            <div className="news-content">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-            t has survivs
+            <div className="news-content flex justify-center flex-col text-center items-center text-slate-400">
+                <p className='hidden md:block mb-2'>Are you ready to unlock the secrets of tech trends and innovations? </p>
+             <p> Join our thriving community of tech enthusiasts and discover the invaluable insights. <br className='hidden lg:block' /> Over <span className='text-slate-600 font-bold px-1'> 1,000+ </span> of your peers have already unlocked through our exclusive newsletter.</p>
             </div>
-            <div className="email">
-                <input type='text' placeholder='Enter Your Email Address'/>
-                <button>Subscribe</button>
+            <div className="email drop-shadow-sm">
+                <input className='text-sm ' type='text'  placeholder='Enter Your Email Address'/>
+                <button className=' text-sm drop-shadow-lg s  px-5'>Subscribe</button>
             </div>
         </div>
   )
