@@ -6,16 +6,16 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin : 20px 0;
+    /* margin : 10px 0; */
 }
 
 .card
 {
     width : 300px;
-    height: 390px;
+    height: 360px;
     background-color: #fff;
     margin : 0px 20px 0px  20px;
-    box-shadow: 0 15px 15px rgba(0,0,0,0.2);
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.04);
     border-radius: 15px;
     display: flex;
     justify-content: center;
@@ -24,7 +24,7 @@
 }
 
 .card:hover{
-    background: rgb(234 88 12);
+    background: rgb(241, 175, 51);
 }
 
 .content-card
@@ -46,11 +46,11 @@
 .content-card .img
 {
     position: relative;
-    width: 180px;
-    height: 180px;
+    width: 140px;
+    height: 140px;
     border-radius: 50%;
     overflow: hidden;
-    border : 5px solid rgb(234 88 12);
+    border : 5px solid rgb(241, 175, 51);
 }
 
 .content-card .img img{
@@ -164,14 +164,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #eee;
+    /* background-color: #eee; */
 }
 
 .member-tab
 {
     max-width : 1500px;
     width: 100%;
-    background-color: #eee;
+    background-color: #eeeeee4a;
+    /* background-color: #ffffff; */
     padding: 30px 10px;
     padding-bottom: 20px;
     display: flex;
@@ -217,8 +218,8 @@
    text-align: center;
    line-height: 50px;
    cursor: pointer;
-   font-size: 19px;
-   font-weight: bold;
+   font-size: 16px;
+   font-weight: semibod;
    transition: all 0.3s ease;
    justify-content: space-around;
 }
@@ -227,7 +228,12 @@
     .member-tab  nav label
     {
         font-size: 14px;
-    }
+    };
+
+     .member-content
+{
+    margin-bottom: 15px ;
+}
 }
 
 #all:checked ~ nav label .all,
@@ -237,7 +243,7 @@
 #design:checked ~ nav label .design,
 #pr:checked ~ nav label .pr
 {
-    color: rgb(234 88 12);
+    color: rgb(241, 175, 51);
 }
 
 input[type='radio']
@@ -248,8 +254,8 @@ input[type='radio']
 .slider
 {
     position: absolute;
-    height: 4.5px;
-    background-color: rgb(234 88 12);
+    height: 2px;
+    background-color: rgb(241, 175, 51);
     border-radius: 20px;
     width: 10%;
     z-index : 1;
@@ -293,27 +299,27 @@ input[type='radio']
 }
 
 #design:checked ~ nav .design{
-    color : rgb(234 88 12);
+    color : rgb(241, 175, 51);
 }
 
 #all:checked ~ nav .all{
-    color : rgb(234 88 12);
+    color : rgb(241, 175, 51);
 }
 
 #lead:checked ~ nav .lead{
-    color : rgb(234 88 12);
+    color : rgb(241, 175, 51);
 }
 
 #tech:checked ~ nav .tech{
-    color : rgb(234 88 12);
+    color : rgb(241, 175, 51);
 }
 
 #content:checked ~ nav .content{
-    color : rgb(234 88 12);
+    color : rgb(241, 175, 51);
 }
 
 #pr:checked ~ nav .pr{
-    color : rgb(234 88 12);
+    color : rgb(241, 175, 51);
 }
 
 .tab-content
@@ -408,7 +414,7 @@ input[type='radio']
 .title-team
 {
     font-weight:  bold;
-    color : rgb(234 88 12);
+    color : rgb(241, 175, 51);
     font-size: 30px;
 }
 
@@ -435,7 +441,7 @@ input[type='radio']
     position: absolute;
     width: 200px;
     height: 3px;
-    background: rgb(234 88 12);
+    background: rgb(241, 175, 51);
     transform-origin: left;
     animation: animate 5s linear infinite;
 }

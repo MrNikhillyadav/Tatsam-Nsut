@@ -31,8 +31,8 @@ const Newsletter = () => {
              <p> Join our thriving community of tech enthusiasts and discover the invaluable insights. <br className='hidden lg:block' /> Over <span className='text-slate-600 font-bold px-1'> 1,000+ </span> of your peers have already unlocked through our exclusive newsletter.</p>
             </div>
             <div className="email drop-shadow-sm">
-                <input className='text-sm ' type='text'  placeholder='Enter Your Email Address'/>
-                <button className=' text-sm drop-shadow-lg s  px-5'>Subscribe</button>
+                <input className='text-sm  ' type='text'  placeholder='Enter Your Email Address'/>
+                <button className='  drop-shadow-lg   px-5'>Subscribe</button>
             </div>
         </div>
   )
