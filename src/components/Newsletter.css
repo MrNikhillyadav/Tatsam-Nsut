@@ -1,10 +1,11 @@
 .newsletter{
-    margin-top:100px;
+    padding: 50px;
+    margin-top:60px;
     margin-bottom:100px;
     margin-left: 70px;
     margin-right:70px;
     display:flex;
-    /* justify-content: center; */
+    justify-content: center;
     flex-direction: column;
     align-items: center;
     /* background-color: aqua; */
@@ -13,11 +14,14 @@
 .image{
     display: flex;
     /* background-color: black; */
-    justify-content: center;
+    width: 250px;
+    margin-top: 20px;
+    height: 100px;
+    /* justify-content: center; */
 }
 .news-head{
-    margin-top:60px;
-    font-size: 44px;
+    margin-top:40px;
+    font-size: 40px;
     /* background-color: brown; */
 }
 .news-content{
@@ -40,8 +44,8 @@
 .email input{
     height:40px;
     width:300px;
-    border-radius: 20px;
-    padding-left: 10px;
+    border-radius: 15px;
+    padding-left: 20px;
     background-color: rgb(233, 230, 230);
     border:none;
 }
@@ -51,18 +55,18 @@
 .email button{
     position: relative;
     z-index: 2;
-    background-color: rgb(241, 175, 51);
+    background-color:#FF9100;
     color: white;
-    padding: 7px;
+    padding: 10px;
     /* background-color: pink; */
-    border-radius: 20px;
+    border-radius: 15px;
     position: relative;
     left:-30px;
 
 }
 @media(max-width:1000px){
     .news-head{
-        font-size:40px;
+        font-size:35px;
     }
 }
 @media(max-width:640px){
