@@ -20,7 +20,7 @@ const Header = () => {
                                 {/* Text-container */}
                                 <div className='   text-white px-8 md:text-left  flex flex-col  text-wrap items-center justify-center text-center mb-11'>
 
-                                        <h2 className='md:text-[90px] text-[60px] mb-[-20px] font-bold' >TATSAM</h2>
+                                        <h2 className='md:text-[90px] text-[60px]  mb-[-20px] font-bold' >TATSAM</h2>
                                         <h2 className='md:text-[30px]  text-[20px] pt-2 text-slate-200'>The Hindi Society of NSUT</h2>
                                         <p className='md:text-sm  text-[12px] text-center   text-slate-200'>
                                         Welcome to Tatsam - The Hindi Society of NSUT, where ordinary moments transform into extraordinary memories, and dreams find their wings to soar.
