@@ -26,13 +26,13 @@ body
 
 }
 ::-webkit-scrollbar-track{
-    background: hsla(0, 0%, 35%, 0.985);
-    /* background: linear-gradient(orange,blue); */
+    background: hsla(0, 0%, 96%, 0.985);
     
 }
 ::-webkit-scrollbar-thumb{
-  background: rgb(255, 255, 255);
-  border: .2em solid hsla(0, 0%, 35%, 0.985);
+  /* background: linear-gradient(orange, red); */
+  background: rgba(49, 49, 49, 0.948);
+  border: .15em solid hsla(0, 0%, 96%, 0.985);
   border-radius: 100vw; 
   
 
