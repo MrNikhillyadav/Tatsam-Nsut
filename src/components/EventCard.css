@@ -1,0 +1,196 @@
+/* Member Section css start from here */
+
+.event-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.event-tag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px 28px 8px 34px;
+  font-weight: bold;
+  color: rgb(241, 175, 51);
+  font-size: 30px;
+}
+
+.our-event {
+  position: relative;
+  display: inline;
+  justify-content: center;
+  align-items: center;
+}
+
+.underline {
+  width: 0px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.eventcard {
+  width: 300px;
+  height: 390px;
+  background-color: #fff;
+  margin: 50px 0px 50px 0px;
+  box-shadow: 0 15px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(10px);
+  border: 5px double rgb(241, 175, 51);
+}
+
+.eventcard:hover {
+  background: rgb(241, 175, 51);
+}
+
+.content-eventcard {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* opacity: 0.8; */
+  transition: 0.5s;
+}
+
+.eventcard:hover .content-eventcard {
+  opacity: 1;
+}
+
+.content-eventcard .img {
+  position: relative;
+  width: 180px;
+  height: 180px;
+  border-radius: 2%;
+  overflow: hidden;
+  border: 2px solid rgb(241, 175, 51);
+}
+
+.content-eventcard .img img {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content-box {
+  text-align: center;
+}
+
+.designation {
+  color: rgb(241, 175, 51);
+  font-weight: 600;
+}
+
+.eventcard:hover .designation {
+  color: #fff;
+}
+
+.content-box h3 {
+  color: Black;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500px;
+  font-size: 18px;
+  text-align: center;
+  margin: 20px 0 10px;
+  line-height: 1.1em;
+}
+
+.eventcard:hover .content-eventcard h3 {
+  color: #fff;
+}
+
+.content-box h3 span {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 300;
+  text-transform: initial;
+  text-align: center;
+  font-size: bold;
+}
+
+.sci {
+  position: absolute;
+  bottom: 40px;
+  display: flex;
+}
+
+.eventcard .sci li {
+  list-style: none;
+  margin: 0 10px;
+  transform: translateY(40px);
+  transition: 0.5s;
+  transition-delay: calc(0.1s * var(--i));
+  opacity: 0;
+}
+
+.eventcard:hover .sci li {
+  list-style: none;
+  margin: 0 10px;
+  transform: translateY(20px);
+  transition: 0.5s;
+  opacity: 1;
+}
+
+.eventcard:hover .content-eventcard {
+  opacity: 1;
+  transform: translateY(-25px);
+}
+.eventcard .sci li a {
+  color: rgb(241, 175, 51);
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.eventcard:hover .team-about {
+  color: #fff;
+}
+
+.registerbtn {
+  background-color: #ffffff;
+  padding: 0px 12px;
+  margin: 0px 0;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100%;
+  opacity: 1;
+  font-size: 10px;
+}
+
+.registerbtn:hover .sci button {
+  color: Black;
+}
+
+.our-event .explorebtn {
+  background-color: rgb(241, 175, 51);
+  color: rgb(0, 0, 0);
+  padding: 8px 0px;
+  margin: 8px 0;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 70%;
+  opacity: 0.9;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.our-event .explorebtn:hover {
+  opacity: 1;
+}
+
+.our-event .explorebtn .icon {
+  left: 100%;
+}
+/* Members section starts from here */
