@@ -2,7 +2,7 @@
 
  // Importing all components 
 import Navbar from "./Navbar";
-import Header from "./header";
+import Header from "./Header";
 import Events from "./Events";
 import Members from "./Members";
 import Newsletter from "./Newsletter";
