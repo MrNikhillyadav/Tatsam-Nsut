@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import './spinner.css';
+import './Spinner.css';
 import {logo} from '../assets';
 
 
