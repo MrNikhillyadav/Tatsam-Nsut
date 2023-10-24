@@ -31,7 +31,7 @@ overflow-x: hidden;
     }
 
     footer{
-        padding: 40px 1px 40px 1px;
+        padding: 40px 1px 40px 2px;
     } 
     .footer-container{
         display: flex;
