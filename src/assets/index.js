@@ -8,7 +8,7 @@ import newsletter from './svgs/newsletter.svg';
 import footer from './svgs/footer.svg'
 
 // Import your PNG files
-import hero from './images/Hero-img/hero.PNG';
+import hero from './images/Hero-img/hero.png';
 
 //Import jpeg files
 import slide_image_1 from './images/members/img-1.jpeg';
