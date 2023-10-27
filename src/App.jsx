@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Navbar, Header, Events, Members, Newsletter, Footer , Spinner
  } from './components';
+import AllEvents from './components/AllEvents';
 
 // import { BrowserRouter , Routes , Route } from 'react-router-dom';
 
@@ -22,6 +23,7 @@ const App = () => {
         <>
           <Header/>
           <Events/>
+          <AllEvents/>
           <Members/>
           <Newsletter/>
           <Footer/>
