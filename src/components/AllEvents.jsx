@@ -24,7 +24,7 @@ const AllEvents = () => {
                         </div>
 
                     {/* Event-card 2*/}
-                        <div className='drop-shadow-sm md:grid grid-cols-2 bg-white rounded-lg mt-4 '>
+                        <div className='drop-shadow-sm md:grid grid-cols-2 bg-white rounded-lg mb-8 '>
                             {/* Event-text */}
                                 <div className=' p-4 order-2 flex flex-col justify-evenly '>
                                         <h1 className='font-semibold text-slate-900 text-2xl'>Nirvaak</h1>
@@ -40,7 +40,7 @@ const AllEvents = () => {
                         </div>
 
                     {/* Event-card 3*/}
-                        <div className='drop-shadow-sm md:grid grid-cols-2 bg-white rounded-lg mb-8 '>
+                        <div className='drop-shadow-sm md:grid grid-cols-2 bg-white rounded-lg pb-8 '>
                             {/* Event-text */}
                                 <div className=' p-4  flex flex-col justify-evenly '>
                                         <h1 className='font-semibold text-slate-900 text-2xl'>Open Mic</h1>
