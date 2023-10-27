@@ -2,7 +2,7 @@ import React from 'react'
 
 const AllEvents = () => {
   return (
-    <div className=' w-full  h-full mt-5 bg-[#eeeeee4a] '>
+    <div className=' w-full  h-full  bg-[#eeeeee4a] '>
             <div className=' sm:max-w-[1240px]  w-full h-full   m-auto items-center    '>
 
                     <h1 className='font-bold text-2xl text-center text-orange-400 py-8'>Our Events</h1>

@@ -22,20 +22,16 @@ const events = [
 
 const Events = () => {
   return (
-    <div className="events-section">
+    <div className="events-section  bg-[#eeeeee4a] ">
       <div className="our-event text-center">
         <div className="event-tag">Upcoming Events</div>
         <div className="underline mx-auto w-full"></div>
-        <div className="flex justify-center items-center grid lg:grid-cols-2 md:grid-cols-2">
+        <div className="flex justify-evenly items-center ">
           {events.map((event, index) => (
             <EventCard key={index} events={event} />
           ))}
         </div>
-        <div className="flex justify-center items-center">
-          <button className="explorebtn">
-            <a href="">Explore Other Events !!</a>
-          </button>
-        </div>
+       
       </div>
     </div>
   );

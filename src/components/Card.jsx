@@ -3,7 +3,7 @@ import React from 'react'
 const Card = (props) => {
   return (
     <div>
-      <div className="container-member">
+      <div className="container-member ">
                     <div className="card cursor-pointer group-hover:blur-sm hover:!blur-none">
                         <div className="content-card">
                           <div className="img">
