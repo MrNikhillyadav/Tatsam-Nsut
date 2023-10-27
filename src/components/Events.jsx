@@ -17,26 +17,36 @@ const events = [
     posterUrl: event2Poster, // Use the imported image
     registrationLink: "https://example.com/register2",
   },
+  {
+    title: "Tatsam Orientation",
+    description: "Description for Event 2",
+    posterUrl: event2Poster, // Use the imported image
+    registrationLink: "https://example.com/register2",
+  },
+  {
+    title: "Tatsam Orientation",
+    description: "Description for Event 2",
+    posterUrl: event2Poster, // Use the imported image
+    registrationLink: "https://example.com/register2",
+  },
   // Add more events here
 ];
 
 const Events = () => {
   return (
-    <div className="events-section">
-      <div className="our-event text-center">
-        <div className="event-tag">Upcoming Events</div>
-        <div className="underline mx-auto w-full"></div>
-        <div className="flex justify-center items-center grid lg:grid-cols-2 md:grid-cols-2">
-          {events.map((event, index) => (
-            <EventCard key={index} events={event} />
-          ))}
+    <div className="sm:max-w-[1240px] max-w-[600px]  w-full h-full   m-auto items-center   ">
+        <div className="events-section py-4 bg-[#eeeeee4a] ">
+          <div className="our-event text-center">
+            <div className="event-tag  ">Upcoming Events</div>
+            <div className="underline mx-auto w-full"></div>
+            <div className="flex flex-col md:flex-row gap-10 mt-8  justify-evenly items-center ">
+              {events.map((event, index) => (
+                <EventCard key={index} events={event} />
+              ))}
+            </div>
+          
+          </div>
         </div>
-        <div className="flex justify-center items-center">
-          <button className="explorebtn">
-            <a href="">Explore Other Events !!</a>
-          </button>
-        </div>
-      </div>
     </div>
   );
 };
