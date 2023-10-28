@@ -28,7 +28,7 @@ const Header = () => {
                                         At Tatsam, we're not just a college society, we're a community of dreamers, creators, and visionaries. Our aim is : to ignite the spark of passion, creativity, and culture through the beautiful tapestry of Hindi language and art.
                                         </p>
                                         </p>
-                                        <button className=' drop-shadow-xl border  duration-300 rounded-lg bg-[#FF9100] hover:bg-white/40 text-white md:px-8 md:py-2 mt-6  mb-2 px-5 py-2'> Join Us</button>
+                                        <button className=' drop-shadow-xl border  duration-300 rounded-lg bg-[#FF9100] hover:bg-white/40 text-white md:px-6 md:py-1 mt-6  mb-2 px-5 py-2'> Join Us</button>
 
                                         <div className='md:mt-[360px] absolute bottom-5  left-0 right-0 px-4  '>
                                         <SocialLinks />
