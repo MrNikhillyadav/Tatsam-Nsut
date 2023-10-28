@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import {logo} from '../assets';
 import {FaBars} from 'react-icons/fa'
 import {MdCancel} from 'react-icons/md'
+import { Link } from 'react-scroll';
 
 
 
@@ -50,6 +51,7 @@ return (
                                 { data.map(({id,link}) => (
                                                 <li key={id} className=' cursor-pointer ' >
                                                         {link}
+                                                               
                                                 </li>
                                         ))}     
                         </ul>
