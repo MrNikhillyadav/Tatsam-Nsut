@@ -86,7 +86,16 @@ return (
                                 {nav && (<ul className='flex dropdown flex-col bg-gradient-to-b from-black to-gray-900  m-2  border-slate-600 shadow-2xl border-b border-r drop-shadow-2xl  justify-center gap-8  absolute text-sm rounded-lg text-gray-400 top-2 right-0 items-center   '>
                                         { data.map(({id,link}) => (
                                                         <li  key={id} className=' text-center tracking-wider hover:text-orange-400 hover:scale-125 cursor-pointer duration-200  ' >
+                                                                <Link 
+                                                                onClick={() => handleNav()}
+                                                                activeClass="active" 
+                                                                to={link} 
+                                                                smooth={true} 
+                                                                offset={0} 
+                                                                duration={500} 
+                                                                onSetActive={handleSetActive}  >
                                                                 {link}
+                                                        </Link>
                                                         </li>
                                                 ))}     
                                 </ul>)
