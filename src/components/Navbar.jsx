@@ -56,7 +56,7 @@ return (
 
                         {/* register button */}
                         <div className=' hidden sm:flex px-2 '>
-                                <button className='  border shadow-lg bg-white   ease-in-out hover:text-[#FF9100] text-black px-8 py-2 rounded-lg'>Register</button>
+                                <button className='  border shadow-lg bg-white   ease-in-out hover:text-[#FF9100] text-black px-5 py-1 rounded-lg'>Register</button>
                         </div>
 
                         {/* toggle-icon */}

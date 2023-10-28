@@ -22,13 +22,15 @@ const Header = () => {
 
                                         <h2 className='md:text-[90px] text-[60px]  mb-[-20px] font-bold' >TATSAM</h2>
                                         <h2 className='md:text-[30px]  text-[20px] pt-2 text-slate-200'>The Hindi Society of NSUT</h2>
-                                        <p className='md:text-sm  text-[12px] text-center   text-slate-200'>
+                                        
+                                        <div className='md:text-sm leading-3 bg-black p-2 bg-opacity-20 rounded text-[12px] text-center  tracking-wide  text-slate-200'>
                                         Welcome to Tatsam - The Hindi Society of NSUT, where ordinary moments transform into extraordinary memories, and dreams find their wings to soar.
-                                        <p className='hidden md:inline'>
-                                        At Tatsam, we're not just a college society, we're a community of dreamers, creators, and visionaries. Our aim is : to ignite the spark of passion, creativity, and culture through the beautiful tapestry of Hindi language and art.
+                                        <p className='hidden md:inline text-slate-200 tracking-wide '>
+                                        At Tatsam, we're not just a college society, we're a community of dreamers, creators, and visionaries. We aim to ignite the spark of passion,
+                                         creativity, and culture through the beautiful tapestry of Hindi language and art.
                                         </p>
-                                        </p>
-                                        <button className=' drop-shadow-xl border  duration-300 rounded-lg bg-[#FF9100] hover:bg-white/40 text-white md:px-8 md:py-2 mt-6  mb-2 px-5 py-2'> Join Us</button>
+                                        </div>
+                                        <button className=' drop-shadow-xl  duration-300 rounded-lg bg-[#FF9100] hover:bg-white/40 text-white md:px-6 md:py- md:text-[18px] mt-6 text-[14px]  mb-2 px-4 py-1 '> Join Us</button>
 
                                         <div className='md:mt-[360px] absolute bottom-5  left-0 right-0 px-4  '>
                                         <SocialLinks />
