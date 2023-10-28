@@ -2,10 +2,10 @@ import React from 'react'
 
 const AllEvents = () => {
   return (
-    <div className=' w-full  h-full  bg-[#eeeeee4a] '>
+    <div className=' w-full  h-full  bg-[#eeeeee4a]  ' id="Events">
             <div className=' sm:max-w-[1240px]  w-full h-full   m-auto items-center    '>
 
-                    <h1 className='font-bold text-2xl text-center text-orange-400 py-8'>Our Events</h1>
+                    <h1 className='font-bold text-[30px] text-center text-[#f1af33] py-8'>Our Events</h1>
 
                     {/* Event-card 1*/}
                         <div className='drop-shadow-sm md:grid grid-cols-2 bg-white rounded-lg mb-8 '>

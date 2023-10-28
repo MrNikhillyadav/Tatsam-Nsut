@@ -2,10 +2,11 @@ import React from 'react'
 import {hero}  from '../assets';
 import Navbar from './Navbar';
 import SocialLinks from './SocialLinks';
+import { Link } from 'react-scroll';
 
 const Header = () => {
   return (
-          <header className='w-full  h-screen border-b  relative'>
+          <header className='w-full  h-screen border-b  relative' id='Home'>
 
 
                 {/* Hero image */}
@@ -30,7 +31,9 @@ const Header = () => {
                                          creativity, and culture through the beautiful tapestry of Hindi language and art.
                                         </p>
                                         </div>
-                                        <button className=' drop-shadow-xl  duration-300 rounded-lg bg-[#FF9100] hover:bg-white/40 text-white md:px-6 md:py- md:text-[18px] mt-6 text-[14px]  mb-2 px-4 py-1 '> Join Us</button>
+                                        <button className=' drop-shadow-xl  duration-300 rounded-lg bg-[#FF9100] hover:bg-white/40 text-white md:px-6 md:py- md:text-[18px] mt-6 text-[14px]  mb-2 px-4 py-1 '>
+                                                 Join Us
+                                        </button>
 
                                         <div className='md:mt-[360px] absolute bottom-5  left-0 right-0 px-4  '>
                                         <SocialLinks />

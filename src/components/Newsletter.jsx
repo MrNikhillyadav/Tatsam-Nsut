@@ -2,6 +2,7 @@ import React from 'react'
 import {newsletter}  from '../assets';
 import './Newsletter.css'
 import emailjs from 'emailjs-com';
+import { Link } from 'react-scroll';
 
 
 const Newsletter = () => {
@@ -18,7 +19,7 @@ const Newsletter = () => {
 
   return (
     
-        <div className='newsletter '>  
+        <div className='newsletter ' id='Contact'>  
             <div className="image">
                 <img src={newsletter} className='drop-shadow-sm'/>
             </div>  

@@ -3,7 +3,7 @@ import "/src/components/EventCard.css";
 const EventCard = ({ events }) => {
   return (
     <div >
-      <div className="container-member ">
+      <div className="container-member " id="Upcoming-events">
         <div className="eventcard cursor-pointer group-hover:blur-sm hover:!blur-none">
           <div className="content-eventcard">
             <div className="img">

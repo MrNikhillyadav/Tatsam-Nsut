@@ -17,6 +17,11 @@ const Navbar = () => {
                 }
         };
 
+                 // Function to handle the activation of a link.
+                const handleSetActive = (to) => {
+                console.log(to);
+                };
+
         const data = [
                 {
                         id : '1',
@@ -37,7 +42,9 @@ const Navbar = () => {
                 
         ];
 
+
 return (
+
 
     <div className='w-full   h-[80px]  absolute z-2 top-0 left-0 right-0  shadow-md  bg-black bg-opacity-60 sm:bg-opacity-30  md:bg-opacity-40 '>
         
@@ -49,9 +56,16 @@ return (
                         {/* nav-links */}
                         <ul className='hidden  sm:flex items-center justify-between md:gap-[70px] gap-12 text-white font-md  '>
                                 { data.map(({id,link}) => (
-                                                <li key={id} className=' cursor-pointer ' >
-                                                        {link}
-                                                               
+                                                <li key={id} className=' cursor-pointer ' >     
+                                                        <Link 
+                                                                activeClass="active" 
+                                                                to={link} 
+                                                                smooth={true} 
+                                                                offset={0} 
+                                                                duration={500} 
+                                                                onSetActive={handleSetActive}  >
+                                                                {link}
+                                                        </Link>
                                                 </li>
                                         ))}     
                         </ul>
