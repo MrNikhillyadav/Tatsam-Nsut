@@ -8,6 +8,7 @@ import Events from "./Events";
 import Members from "./Members";
 import Newsletter from "./Newsletter";
 import Footer from "./Footer";
+import Contact from "./Contact";
 
  // Exporting all components 
-export {Spinner , Navbar, Header, Events, Members, Newsletter, Footer}
+export {Spinner , Navbar, Header, Events, Members, Newsletter, Footer , Contact}

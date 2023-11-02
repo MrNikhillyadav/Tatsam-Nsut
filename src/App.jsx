@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Navbar, Header, Events, Members, Newsletter, Footer , Spinner
+import { Navbar, Header, Events, Members, Newsletter, Footer , Spinner, Contact
  } from './components';
 import AllEvents from './components/AllEvents';
 
@@ -26,6 +26,7 @@ const App = () => {
           <AllEvents/>
           <Members/>
           <Newsletter/>
+          <Contact />
           <Footer/>
         </>
       )} 

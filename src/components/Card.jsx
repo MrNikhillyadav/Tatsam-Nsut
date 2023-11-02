@@ -17,10 +17,10 @@ const Card = (props) => {
                         </div>
                         <ul className="sci">
                         <li>
-                          <a href={props.link}><i class="uil uil-instagram"></i></a>
+                          <a href={props.link}><i className="uil uil-instagram"></i></a>
                         </li>
                         <li>
-                          <a href={props.inst}><i class="uil uil-linkedin"></i></a>
+                          <a href={props.inst}><i className="uil uil-linkedin"></i></a>
                         </li>
                       </ul>
                       </div>
