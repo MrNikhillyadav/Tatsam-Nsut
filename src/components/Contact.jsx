@@ -12,7 +12,7 @@ const Contact = () => {
             </div>
 
             <div className="flex  mr-auto ml-auto gap-20 shadow-lg shadow-indigo-500/40 rounded-lg">
-                <div className="px-10 md:px-10 py-5 flex flex-col gap-5 mt-2">
+                <div className="px-5 md:px-10 py-5 flex flex-col gap-5 mt-2">
                   <h3 className="text-[22px] md:text-[26x] text-center">Have a Problem ? Message Us</h3>
                     <div className="flex md:gap-5 flex-col md:flex-row gap-5">
                     <input className='outline-none bg-[#f5f5f5] w-[100%] md:w-[50%] p-[8px] md:p-[12px]' type="text" name="" placeholder='Enter Name' id="" />
