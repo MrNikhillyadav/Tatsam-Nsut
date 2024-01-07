@@ -1,5 +1,6 @@
 import React from 'react';
 import Card from './Card';
+import { Link } from 'react-scroll';
 import './Card.css'
 import {slide_image_1,slide_image_2,slide_image_3,slide_image_4,slide_image_5,slide_image_6,slide_image_7,slide_image_8,
   slide_image_9,slide_image_10,slide_image_11,slide_image_12} from '../assets';
@@ -35,8 +36,15 @@ function Members() {
   return (
     <div>    
             <div>
-                    {/* Write your code below this line */}              
-                    <div className="members-section">
+
+                
+
+                    {/* Write your code below this line */}
+
+                    
+
+                    <div className="members-section " id='Members'>
+
                         <div className="container-members">
                         <div className="member-tab">
 

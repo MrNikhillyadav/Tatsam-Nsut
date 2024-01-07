@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import {logo} from '../assets';
 import {FaBars} from 'react-icons/fa'
 import {MdCancel} from 'react-icons/md'
+import { Link } from 'react-scroll';
 
 
 
@@ -15,6 +16,11 @@ const Navbar = () => {
                         document.body.style.overflow = 'scroll';
                 }
         };
+
+                 // Function to handle the activation of a link.
+                const handleSetActive = (to) => {
+                console.log(to);
+                };
 
         const data = [
                 {
@@ -36,7 +42,9 @@ const Navbar = () => {
                 
         ];
 
+
 return (
+
 
     <div className='w-full   h-[80px]  absolute z-2 top-0 left-0 right-0  shadow-md  bg-black bg-opacity-60 sm:bg-opacity-30  md:bg-opacity-40 '>
         
@@ -48,15 +56,23 @@ return (
                         {/* nav-links */}
                         <ul className='hidden  sm:flex items-center justify-between md:gap-[70px] gap-12 text-white font-md  '>
                                 { data.map(({id,link}) => (
-                                                <li key={id} className=' cursor-pointer ' >
-                                                        {link}
+                                                <li key={id} className=' cursor-pointer ' >     
+                                                        <Link 
+                                                                activeClass="active" 
+                                                                to={link} 
+                                                                smooth={true} 
+                                                                offset={0} 
+                                                                duration={500} 
+                                                                onSetActive={handleSetActive}>
+                                                                {link}
+                                                        </Link>
                                                 </li>
                                         ))}     
                         </ul>
 
                         {/* register button */}
                         <div className=' hidden sm:flex px-2 '>
-                                <button className='  border shadow-lg bg-white   ease-in-out hover:text-[#FF9100] text-black px-5 py-1 rounded-lg'>Register</button>
+                                <button className='  border shadow-lg bg-white   ease-in-out hover:text-[#FF9100] text-black px-5 py-2 rounded-lg'>Register</button>
                         </div>
 
                         {/* toggle-icon */}
@@ -70,7 +86,16 @@ return (
                                 {nav && (<ul className='flex dropdown flex-col bg-gradient-to-b from-black to-gray-900  m-2  border-slate-600 shadow-2xl border-b border-r drop-shadow-2xl  justify-center gap-8  absolute text-sm rounded-lg text-gray-400 top-2 right-0 items-center   '>
                                         { data.map(({id,link}) => (
                                                         <li  key={id} className=' text-center tracking-wider hover:text-orange-400 hover:scale-125 cursor-pointer duration-200  ' >
+                                                                <Link 
+                                                                onClick={() => handleNav()}
+                                                                activeClass="active" 
+                                                                to={link} 
+                                                                smooth={true} 
+                                                                offset={0} 
+                                                                duration={500} 
+                                                                onSetActive={handleSetActive}  >
                                                                 {link}
+                                                        </Link>
                                                         </li>
                                                 ))}     
                                 </ul>)

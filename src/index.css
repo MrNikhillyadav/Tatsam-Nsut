@@ -21,6 +21,8 @@ body
   z-index: 999;
 }
 
+
+/* custom scrollbar */
 ::-webkit-scrollbar{
     width: .75em;
 
