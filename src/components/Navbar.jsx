@@ -63,7 +63,7 @@ return (
                                                                 smooth={true} 
                                                                 offset={0} 
                                                                 duration={500} 
-                                                                onSetActive={handleSetActive}  >
+                                                                onSetActive={handleSetActive}>
                                                                 {link}
                                                         </Link>
                                                 </li>

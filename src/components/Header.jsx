@@ -24,7 +24,7 @@ const Header = () => {
                                         <h2 className='md:text-[90px] text-[60px] mt-3 md:mt-1 mb-[-20px] font-bold' >TATSAM</h2>
                                         <h2 className='md:text-[30px]  text-[20px] pt-2 text-slate-200'>The Hindi Society of NSUT</h2>
                                         
-                                        <div className='md:text-[18px] md:leading-[23px] leading-[16px] bg-black p-2 bg-opacity-20 rounded text-[14px] text-center tracking-wider  text-slate-300'>
+                                        <div className='md:text-[18px] md:leading-[25px] leading-[16px] bg-black p-2 bg-opacity-20 rounded text-[14px] text-center tracking-wider  text-slate-300'>
                                         Welcome to Tatsam - The Hindi Society of NSUT, where ordinary moments transform into extraordinary memories, and dreams find their wings to soar.
                                         <p className='hidden md:inline text-slate-300 tracking-wide '>
                                         At Tatsam, we're not just a college society, we're a community of dreamers, creators, and visionaries. We aim to ignite the spark of passion,
